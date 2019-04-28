@@ -11,6 +11,9 @@ return array;
 }
 
 function whileLoop(number) {
-  while (number >= 0)
-    return --number;
+  let counter = n;
+  while (counter > 0){
+    console.log(--counter)
+  }
+  return "done";
 }
